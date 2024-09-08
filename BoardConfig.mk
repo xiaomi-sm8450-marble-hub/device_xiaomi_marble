@@ -23,6 +23,7 @@ TARGET_OTA_ASSERT_DEVICE := marble,marblein
 
 # Build broken rules
 BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 # Kernel modules
 BOOT_KERNEL_MODULES += \
