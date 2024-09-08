@@ -21,6 +21,9 @@ DEVICE_PATH := device/xiaomi/marble
 # Assert
 TARGET_OTA_ASSERT_DEVICE := marble,marblein
 
+# Build broken rules
+BUILD_BROKEN_DUP_RULES := true
+
 # Kernel modules
 BOOT_KERNEL_MODULES += \
     qcom_pm8008-regulator.ko \
